@@ -9,7 +9,7 @@ const variants = {
   closed: {
     transition: {
       staggerChildren: 0.05,
-      staggerDirection:-1,
+      staggeredDirection:-1,
     }
   }
 }
@@ -32,9 +32,9 @@ export default function Links() {
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item) => (
-        <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.9}}>
+        <a href={`#${item}`} key={item} variants={i}>
           {item}
-        </motion.a>
+        </a>
       ))}
     </motion.div>
   );
