@@ -23,7 +23,7 @@ section{
     height: 100vh;
     width: 100vw;
     scroll-snap-align: center;
-    overflow: hidden;
+    o
 }
 
 @mixin mobile {
@@ -42,3 +42,6 @@ section{
     }
 }
 
+// @import "../../app.scss";
+//  @include mobile {
+//     }

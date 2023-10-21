@@ -53,9 +53,8 @@
       z-index: -1;
       svg {
         @include mobile {
-          margin-top: 50px;
-          height: 350px !important;
-          width: 350px !important;
+          height: 300px !important;
+          width: 200px !important;
         }
       }
     }
