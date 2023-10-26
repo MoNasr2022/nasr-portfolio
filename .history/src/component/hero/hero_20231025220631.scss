@@ -120,7 +120,6 @@
     max-width: 1366px;
     height: 100%;
     margin: auto;
-    position: relative;
 
     .textContainer {
       width: 50%;
@@ -153,8 +152,7 @@
       }
 
       .buttons {
-        z-index: 3;
-        a {
+        button {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
@@ -172,7 +170,7 @@
     }
   }
 
-  .heroImage {
+  .imageContainer {
     height: 100%;
     position: absolute;
     top: 0;
@@ -200,6 +198,5 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
-    z-index: 2;
   }
 }
