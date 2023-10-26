@@ -11,7 +11,7 @@
     text-align: center;
     color: orange;
     font-size: 36px;
-    
+    padding: auto;
     @include mobile {
       padding-top: calc(100vh - 200px);
       font-size: 24px;
